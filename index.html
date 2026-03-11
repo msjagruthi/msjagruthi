@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jagruthi Mothukuri | Senior Tableau Analyst</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo"><span>J</span>M</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#recommendations">Reviews</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-btn" title="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PROGRESS BAR -->
+  <div id="scrollProgress"></div>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <canvas id="heroCanvas"></canvas>
+    <div class="hero-inner">
+      <div class="hero-left">
+        <div class="hero-tag"><i class="fas fa-chart-bar"></i> Data &amp; Analytics Expert</div>
+        <h1>
+          Hi, I'm<br/>
+          <span class="name-gradient">Jagruthi</span><br/>
+          <span class="typed-wrapper"><span id="typed"></span><span class="cursor">|</span></span>
+        </h1>
+        <p class="hero-desc">
+          Senior Tableau Analyst with <strong>12+ years</strong> of experience transforming complex data into clear, strategic insights. Currently at <strong>Univar Solutions</strong>.
+        </p>
+        <div class="hero-meta">
+          <span><i class="fas fa-map-marker-alt"></i> Alpharetta, Georgia</span>
+          <span><i class="fas fa-briefcase"></i> Open to Opportunities</span>
+        </div>
+        <div class="hero-btns">
+          <a href="#experience" class="btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+          <a href="#contact" class="btn-ghost">Get In Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/jagruthimothukuri" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/msjagruthi" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="avatar-wrapper">
+          <div class="avatar-ring"></div>
+          <div class="avatar-circle">
+            <span>JM</span>
+          </div>
+          <div class="avatar-badge badge-1"><i class="fas fa-chart-line"></i> Tableau Expert</div>
+          <div class="avatar-badge badge-2"><i class="fas fa-award"></i> 12 Certs</div>
+          <div class="avatar-badge badge-3"><i class="fas fa-star"></i> 12+ Yrs</div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint"><i class="fas fa-chevron-down"></i></div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="container">
+      <div class="sec-header">
+        <span class="sec-pill">About Me</span>
+        <h2>Turning Data Into <em>Decisions</em></h2>
+        <p class="sec-sub">Passionate about making data accessible, beautiful, and actionable.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-story">
+          <p>I'm a <strong>Senior Tableau Analyst</strong> with a proven track record of delivering enterprise-level BI solutions that drive real business value. From building complex dashboards to administering Tableau Server at scale, I bring both technical depth and strategic thinking to every project.</p>
+          <p>My journey spans roles at <strong>Allergan</strong>, <strong>Cisco Systems</strong>, and now <strong>Univar Solutions</strong> — where I've spent the last 12+ years crafting data stories that executives and analysts alike rely on daily.</p>
+          <p>I believe great data visualization is part science, part art — and I bring both to the table.</p>
+          <a href="https://www.linkedin.com/in/jagruthimothukuri" target="_blank" class="btn-primary" style="display:inline-flex;margin-top:16px;">
+            <i class="fab fa-linkedin"></i> View Full Profile
+          </a>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-box">
+            <div class="stat-icon-wrap"><i class="fas fa-clock"></i></div>
+            <div class="stat-val" data-count="12">0</div>
+            <div class="stat-suffix">+ Years</div>
+            <p>Experience</p>
+          </div>
+          <div class="stat-box">
+            <div class="stat-icon-wrap"><i class="fas fa-certificate"></i></div>
+            <div class="stat-val" data-count="12">0</div>
+            <div class="stat-suffix">Total</div>
+            <p>Certifications</p>
+          </div>
+          <div class="stat-box">
+            <div class="stat-icon-wrap"><i class="fas fa-thumbs-up"></i></div>
+            <div class="stat-val" data-count="7">0</div>
+            <div class="stat-suffix">Given</div>
+            <p>Recommendations</p>
+          </div>
+          <div class="stat-box">
+            <div class="stat-icon-wrap"><i class="fas fa-building"></i></div>
+            <div class="stat-val" data-count="4">0</div>
+            <div class="stat-suffix">Total</div>
+            <p>Companies</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <div class="container">
+      <div class="sec-header">
+        <span class="sec-pill">Expertise</span>
+        <h2>Skills &amp; <em>Tools</em></h2>
+        <p class="sec-sub">A decade-honed toolkit for enterprise data and analytics.</p>
+      </div>
+      <div class="skills-layout">
+        <div class="skill-bars">
+          <h3>Core Proficiencies</h3>
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span>Tableau Desktop &amp; Server</span><span class="skill-pct">98%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="98"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span>Business Intelligence Strategy</span><span class="skill-pct">95%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="95"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span>SQL &amp; Data Modeling</span><span class="skill-pct">90%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span>Power BI</span><span class="skill-pct">85%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span>Alteryx</span><span class="skill-pct">82%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="82"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span>Business Objects</span><span class="skill-pct">88%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="88"></div></div>
+          </div>
+        </div>
+        <div class="skill-tags-wrap">
+          <h3>Technologies</h3>
+          <div class="skill-tags">
+            <span class="tag tag-primary"><i class="fas fa-chart-bar"></i> Tableau Desktop</span>
+            <span class="tag tag-primary"><i class="fas fa-server"></i> Tableau Server</span>
+            <span class="tag tag-blue"><i class="fas fa-chart-pie"></i> Power BI</span>
+            <span class="tag tag-orange"><i class="fas fa-cogs"></i> Alteryx</span>
+            <span class="tag tag-purple"><i class="fas fa-database"></i> Amazon Redshift</span>
+            <span class="tag tag-red"><i class="fas fa-database"></i> Oracle</span>
+            <span class="tag tag-green"><i class="fas fa-table"></i> Business Objects</span>
+            <span class="tag tag-teal"><i class="fas fa-code"></i> SQL</span>
+            <span class="tag tag-primary"><i class="fas fa-sitemap"></i> Data Modeling</span>
+            <span class="tag tag-blue"><i class="fas fa-chart-line"></i> Dashboard Design</span>
+            <span class="tag tag-orange"><i class="fas fa-lightbulb"></i> BI Consulting</span>
+            <span class="tag tag-purple"><i class="fas fa-project-diagram"></i> ETL Pipelines</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience">
+    <div class="container">
+      <div class="sec-header">
+        <span class="sec-pill">Career</span>
+        <h2>Work <em>Experience</em></h2>
+        <p class="sec-sub">12+ years of delivering data-driven impact across industries.</p>
+      </div>
+      <div class="timeline">
+
+        <div class="tl-item reveal">
+          <div class="tl-dot active"></div>
+          <div class="tl-line"></div>
+          <div class="tl-card">
+            <div class="tl-card-top">
+              <div class="tl-icon" style="background:linear-gradient(135deg,#2563eb,#06b6d4)"><i class="fas fa-chart-line"></i></div>
+              <div class="tl-head">
+                <h3>Senior Tableau Analyst</h3>
+                <p class="tl-company">Univar Solutions</p>
+                <span class="tl-badge current">Current</span>
+              </div>
+            </div>
+            <div class="tl-meta">
+              <span><i class="far fa-calendar"></i> Nov 2013 – Present</span>
+              <span class="tl-dur">12+ years</span>
+              <span><i class="fas fa-map-marker-alt"></i> Redmond, WA</span>
+            </div>
+            <ul class="tl-list">
+              <li>Lead enterprise Tableau platform administration and dashboard development</li>
+              <li>Architect high-impact BI solutions that direct company strategy</li>
+              <li>Integrate and optimize data pipelines from Amazon Redshift</li>
+              <li>Refactor dashboards for improved performance and responsiveness</li>
+              <li>Mentor teams and consult on data model design and process improvements</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-line"></div>
+          <div class="tl-card">
+            <div class="tl-card-top">
+              <div class="tl-icon" style="background:linear-gradient(135deg,#7c3aed,#a855f7)"><i class="fas fa-lightbulb"></i></div>
+              <div class="tl-head">
+                <h3>Business Intelligence Consultant</h3>
+                <p class="tl-company">Univar Solutions</p>
+              </div>
+            </div>
+            <div class="tl-meta">
+              <span><i class="far fa-calendar"></i> Jul 2013 – Oct 2013</span>
+              <span class="tl-dur">4 months</span>
+            </div>
+            <ul class="tl-list">
+              <li>Optimized reporting and analytics workflows across the organization</li>
+              <li>Collaborated with stakeholders to define data requirements and KPIs</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-line"></div>
+          <div class="tl-card">
+            <div class="tl-card-top">
+              <div class="tl-icon" style="background:linear-gradient(135deg,#0284c7,#38bdf8)"><i class="fas fa-network-wired"></i></div>
+              <div class="tl-head">
+                <h3>Business Objects Developer</h3>
+                <p class="tl-company">Cisco Systems</p>
+              </div>
+            </div>
+            <div class="tl-meta">
+              <span><i class="far fa-calendar"></i> Jul 2010 – Jul 2013</span>
+              <span class="tl-dur">3 years</span>
+              <span><i class="fas fa-map-marker-alt"></i> Irvine, CA</span>
+            </div>
+            <ul class="tl-list">
+              <li>Developed Business Objects reports and universes for enterprise reporting</li>
+              <li>Collaborated with cross-functional teams to gather reporting requirements</li>
+              <li>Built and maintained data extracts and reporting pipelines</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-card-top">
+              <div class="tl-icon" style="background:linear-gradient(135deg,#059669,#34d399)"><i class="fas fa-flask"></i></div>
+              <div class="tl-head">
+                <h3>Intern</h3>
+                <p class="tl-company">Allergan · VT Mobile Aerospace Engineering</p>
+              </div>
+            </div>
+            <div class="tl-meta">
+              <span><i class="far fa-calendar"></i> Jul 2008 – Jul 2009</span>
+              <span class="tl-dur">1 year</span>
+              <span><i class="fas fa-map-marker-alt"></i> Mobile, AL</span>
+            </div>
+            <ul class="tl-list">
+              <li>Built custom Oracle-based reporting tool for laboratory data extraction</li>
+              <li>Implemented complex calculations and conditional formatting</li>
+              <li>Created intuitive reporting utilities for non-technical users</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education">
+    <div class="container">
+      <div class="sec-header">
+        <span class="sec-pill">Academic</span>
+        <h2>Education</h2>
+        <p class="sec-sub">The foundation behind the expertise.</p>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+          <div class="edu-icon-wrap"><i class="fas fa-graduation-cap"></i></div>
+          <div class="edu-body">
+            <span class="edu-degree">Master of Science (MS)</span>
+            <h3>University of South Alabama</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Mobile, Alabama</p>
+          </div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-icon-wrap"><i class="fas fa-university"></i></div>
+          <div class="edu-body">
+            <span class="edu-degree">Bachelor's Degree</span>
+            <h3>Jawaharlal Nehru Technological University</h3>
+            <p><i class="fas fa-map-marker-alt"></i> India</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section id="certifications">
+    <div class="container">
+      <div class="sec-header">
+        <span class="sec-pill">Credentials</span>
+        <h2>Licenses &amp; <em>Certifications</em></h2>
+        <p class="sec-sub">12 industry-recognized credentials across Tableau, Power BI, and Alteryx.</p>
+      </div>
+      <div class="cert-filters">
+        <button class="cf-btn active" data-f="all">All <span>12</span></button>
+        <button class="cf-btn" data-f="tableau">Tableau <span>10</span></button>
+        <button class="cf-btn" data-f="other">Other <span>2</span></button>
+      </div>
+      <div class="cert-grid">
+
+        <div class="cert-card reveal" data-cat="tableau">
+          <div class="cert-ribbon">Top</div>
+          <div class="cert-ico tableau"><i class="fas fa-chart-bar"></i></div>
+          <div class="cert-body">
+            <h4>Tableau Certified Data Analyst</h4>
+            <p>Tableau</p>
+            <span><i class="far fa-calendar-check"></i> Apr 2023</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-cat="tableau">
+          <div class="cert-ribbon">Top</div>
+          <div class="cert-ico tableau"><i class="fas fa-server"></i></div>
+          <div class="cert-body">
+            <h4>Tableau Server Certified Associate</h4>
+            <p>Tableau</p>
+            <span><i class="far fa-calendar-check"></i> May 2023</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-cat="tableau">
+          <div class="cert-ico tableau"><i class="fas fa-desktop"></i></div>
+          <div class="cert-body">
+            <h4>Tableau Desktop Specialist</h4>
+            <p>Tableau</p>
+            <span><i class="far fa-calendar-check"></i> Apr 2023</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-cat="tableau">
+          <div class="cert-ico tableau"><i class="fas fa-user-check"></i></div>
+          <div class="cert-body">
+            <h4>Tableau Analyst</h4>
+            <p>Tableau Software</p>
+            <span><i class="far fa-calendar-check"></i> Apr 2020</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-cat="tableau">
+          <div class="cert-ico tableau"><i class="fas fa-tools"></i></div>
+          <div class="cert-body">
+            <h4>Tableau Server Administrator</h4>
+            <p>Tableau Software</p>
+            <span><i class="far fa-calendar-check"></i> Apr 2020</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-cat="tableau">
+          <div class="cert-ico tableau"><i class="fas fa-user-shield"></i></div>
+          <div class="cert-body">
+            <h4>Tableau Site Administrator</h4>
+            <p>Tableau Software</p>
+            <span><i class="far fa-calendar-check"></i> Apr 2020</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-cat="tableau">
+          <div class="cert-ico tableau"><i class="fas fa-pen-nib"></i></div>
+          <div class="cert-body">
+            <h4>Tableau Author</h4>
+            <p>Tableau Software</p>
+            <span><i class="far fa-calendar-check"></i> Apr 2020</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-cat="tableau">
+          <div class="cert-ico tableau"><i class="fas fa-eye"></i></div>
+          <div class="cert-body">
+            <h4>Tableau Consumer</h4>
+            <p>Tableau Software</p>
+            <span><i class="far fa-calendar-check"></i> Apr 2020</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-cat="tableau">
+          <div class="cert-ico tableau"><i class="fas fa-medal"></i></div>
+          <div class="cert-body">
+            <h4>Tableau Server 9 Qualified Associate</h4>
+            <p>Tableau Software</p>
+            <span><i class="far fa-calendar-check"></i> Feb 2016</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-cat="tableau">
+          <div class="cert-ico tableau"><i class="fas fa-laptop-code"></i></div>
+          <div class="cert-body">
+            <h4>Tableau Desktop 9 Qualified Associate</h4>
+            <p>Tableau Software</p>
+            <span><i class="far fa-calendar-check"></i> Jul 2015</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-cat="other">
+          <div class="cert-ico powerbi"><i class="fas fa-chart-pie"></i></div>
+          <div class="cert-body">
+            <h4>Analyzing &amp; Visualizing Data with Power BI</h4>
+            <p>edX</p>
+            <span><i class="far fa-calendar-check"></i> Jun 2017</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-cat="other">
+          <div class="cert-ico alteryx"><i class="fas fa-cogs"></i></div>
+          <div class="cert-body">
+            <h4>Alteryx Designer Core Certified</h4>
+            <p>Alteryx</p>
+            <span><i class="far fa-calendar-check"></i> Jan 2021</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RECOMMENDATIONS ===== -->
+  <section id="recommendations">
+    <div class="container">
+      <div class="sec-header">
+        <span class="sec-pill">Testimonials</span>
+        <h2>What People <em>Say</em></h2>
+        <p class="sec-sub">7 recommendations from colleagues and managers on LinkedIn.</p>
+      </div>
+      <div class="rec-grid">
+
+        <div class="rec-card reveal featured">
+          <div class="rec-stars">★★★★★</div>
+          <p>"You know the type of person who inspires confidence simply because they are involved? That's Jagruthi. She's very competent from a technical perspective and great from an advisory perspective as well — just a great teammate."</p>
+          <div class="rec-author">
+            <div class="rec-avatar">SM</div>
+            <div><strong>Scott Madison</strong><br/><small>Univar Solutions</small></div>
+          </div>
+        </div>
+
+        <div class="rec-card reveal featured">
+          <div class="rec-stars">★★★★★</div>
+          <p>"Initiative, velocity, and creativity! Jagruthi finds the problems that need to be solved and fixes them — most times before you ever knew they were there. She never ignores bad code and continually makes the product better. I would recommend Jagruthi without reservation."</p>
+          <div class="rec-author">
+            <div class="rec-avatar">EF</div>
+            <div><strong>Edward Fenton</strong><br/><small>Univar Solutions</small></div>
+          </div>
+        </div>
+
+        <div class="rec-card reveal">
+          <div class="rec-stars">★★★★★</div>
+          <p>"Whenever I had a request to create reports or pull data, Jagruthi was able to provide a well defined report immediately while it would take others days. My advice to any employer — do not let her get away."</p>
+          <div class="rec-author">
+            <div class="rec-avatar">MT</div>
+            <div><strong>Michael Tobin</strong><br/><small>Univar USA</small></div>
+          </div>
+        </div>
+
+        <div class="rec-card reveal">
+          <div class="rec-stars">★★★★★</div>
+          <p>"Jagruthi has been a tremendous resource as the Administrator of our Tableau platform. She has provided intelligent insight as we've worked through problems and developed high impact analyses used to direct strategy for our company."</p>
+          <div class="rec-author">
+            <div class="rec-avatar">AC</div>
+            <div><strong>Adam Canen</strong><br/><small>Univar Solutions</small></div>
+          </div>
+        </div>
+
+        <div class="rec-card reveal">
+          <div class="rec-stars">★★★★★</div>
+          <p>"Jagruthi is great to work with. She is professional, quick to learn and pick up on new tasks, and really works to understand the context of the work she is doing."</p>
+          <div class="rec-author">
+            <div class="rec-avatar">JD</div>
+            <div><strong>Jessica Dorris Haight</strong><br/><small>Univar Solutions</small></div>
+          </div>
+        </div>
+
+        <div class="rec-card reveal">
+          <div class="rec-stars">★★★★★</div>
+          <p>"She is very professional and detailed in her work, is a team player and has great business acumen."</p>
+          <div class="rec-author">
+            <div class="rec-avatar">PA</div>
+            <div><strong>Parneet Arora</strong><br/><small>Univar Solutions</small></div>
+          </div>
+        </div>
+
+        <div class="rec-card reveal">
+          <div class="rec-stars">★★★★★</div>
+          <p>"She demonstrated good attention to detail and skill as she developed a valuable custom reporting tool. The easy-to-use utility extracted laboratory data from Oracle, performed calculations, and was rich with conditional formatting."</p>
+          <div class="rec-author">
+            <div class="rec-avatar">MB</div>
+            <div><strong>Mike Bieraugel</strong><br/><small>Allergan</small></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="container">
+      <div class="sec-header">
+        <span class="sec-pill">Contact</span>
+        <h2>Let's <em>Connect</em></h2>
+        <p class="sec-sub">Open to new opportunities, collaborations, and conversations about data.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-links-col">
+          <a href="https://www.linkedin.com/in/jagruthimothukuri" target="_blank" class="contact-card reveal">
+            <div class="cc-icon" style="background:linear-gradient(135deg,#0077b5,#00a0dc)"><i class="fab fa-linkedin-in"></i></div>
+            <div class="cc-info">
+              <h4>LinkedIn</h4>
+              <p>linkedin.com/in/jagruthimothukuri</p>
+            </div>
+            <i class="fas fa-arrow-right cc-arrow"></i>
+          </a>
+          <a href="https://github.com/msjagruthi" target="_blank" class="contact-card reveal">
+            <div class="cc-icon" style="background:linear-gradient(135deg,#24292e,#586069)"><i class="fab fa-github"></i></div>
+            <div class="cc-info">
+              <h4>GitHub</h4>
+              <p>github.com/msjagruthi</p>
+            </div>
+            <i class="fas fa-arrow-right cc-arrow"></i>
+          </a>
+          <div class="contact-card reveal">
+            <div class="cc-icon" style="background:linear-gradient(135deg,#2563eb,#06b6d4)"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="cc-info">
+              <h4>Location</h4>
+              <p>Alpharetta, Georgia, USA</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-cta-col reveal">
+          <div class="cta-box">
+            <div class="cta-glow"></div>
+            <i class="fas fa-rocket cta-icon"></i>
+            <h3>Ready to Work Together?</h3>
+            <p>With 12+ years of Tableau expertise and a passion for turning data into decisions, I'm ready to help your organization move faster with better insights.</p>
+            <a href="https://www.linkedin.com/in/jagruthimothukuri" target="_blank" class="btn-primary">
+              Connect on LinkedIn <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-logo"><span>J</span>M</div>
+      <p>© 2026 Jagruthi Mothukuri · Senior Tableau Analyst</p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/jagruthimothukuri" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/msjagruthi" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
